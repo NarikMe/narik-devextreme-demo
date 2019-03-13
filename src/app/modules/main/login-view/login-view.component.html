@@ -1,0 +1,30 @@
+<narik-busy-indicator [isBusy]="isBusy">
+  <div class="login-container" *ngIf="!onNavigationg" [tab-guard]>
+    <div class="login-card">
+      <span class="login-form-logo">
+        <img src="../../../../assets/images/narik.jpg">
+      </span>
+      <span class="login-form-title pb-0 pt-4">
+        {{ "login.title" | translate }}
+      </span>
+      <div>
+        <form>
+          <div class="dx-fieldset">
+            <narik-input [auto-focus] prefixIcon="account_box" [placeHolder]="'login.userName_placeHolder' | translate"
+              [(ngModel)]="loginModel.userName" name="name" [label]="'login.userName' | translate" type="text">
+            </narik-input>
+            <narik-input (keyup.enter)="login()" prefixIcon="lock" [placeHolder]="'login.password_placeHolder' | translate"
+              [(ngModel)]="loginModel.password" name="password" [label]="'login.password' | translate" type="password">
+            </narik-input>
+          </div>
+        </form>
+      </div>
+      <div align="center">
+        <narik-button (nClick)="login()" [buttonStyle]="'Contained'" [isBusy]="isBusy" label=" {{ 'login.button' | translate }}"
+          color="white">
+        </narik-button>
+      </div>
+    </div>
+
+  </div>
+</narik-busy-indicator>
