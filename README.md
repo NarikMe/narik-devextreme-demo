@@ -6,7 +6,7 @@ A first draft demo for [**Narik**](http://narik.me "**Narik**") with [Devextreme
 
 First of all copy repo to local machine .
 ```
-git clone  https://github.com/NarikMe/narik-material-demo
+git clone  https://github.com/NarikMe/narik-devextreme-demo
 ```
 
 After  that install dependencies.
