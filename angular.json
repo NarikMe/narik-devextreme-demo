@@ -43,7 +43,7 @@
               "src/styles/styles.scss",
               "node_modules/devextreme/dist/css/dx.common.css",
               "node_modules/devextreme/dist/css/dx.light.css",
-              "node_modules/narik-ui-devextreme/styles/narik-ui-devextereme.css"
+              "node_modules/narik-ui-devextreme/styles/narik-ui-devextreme.css"
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
