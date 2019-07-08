@@ -46,12 +46,12 @@
     "typeface-exo": "0.0.61",
     "narik-app-core": "^2.0.2",
     "narik-client-storage": "^2.0.0",
-    "narik-common": "^2.0.2",
+    "narik-common": "^2.0.3",
     "narik-core": "^2.0.3",
     "narik-infrastructure": "^2.0.4",
     "narik-jwt-authentication": "^2.0.0",
-    "narik-ui-core": "^2.0.4",
-    "narik-ui-devextreme": "^2.0.4"
+    "narik-ui-core": "^2.0.5",
+    "narik-ui-devextreme": "^2.0.5"
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "8.0.2",

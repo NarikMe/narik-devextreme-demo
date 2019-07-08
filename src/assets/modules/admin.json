@@ -7,7 +7,11 @@
   "metaData": {
     "translateItems": ["admin"],
     "dataInfo": "$$dataInfo.dataInfo",
-    "uiDefaultOptions": ["$$uiDefaults.select"],
+    "uiDefaultOptions": [
+      "$$uiDefaults.select",
+      "$$uiDefaults.button",
+      "$$uiDefaults.toolbar"
+    ],
     "entities": [
       {
         "key": "userAccount",
@@ -751,7 +755,7 @@
     "menuItems": [
       {
         "title": "userAccount_-_role",
-        "icon":"people-outline",
+        "icon": "people-outline",
         "link": "/pages/ui-features",
         "children": [
           {
@@ -774,7 +778,7 @@
       },
       {
         "title": "individual",
-        "icon":"menu-outline",
+        "icon": "menu-outline",
         "link": "/pages/ui-features",
         "children": [
           {
@@ -789,7 +793,7 @@
       },
       {
         "title": "branch",
-        "icon":"menu-outline",
+        "icon": "menu-outline",
         "link": "/pages/ui-features",
         "children": [
           {
@@ -805,7 +809,7 @@
 
       {
         "title": "business",
-        "icon":"menu-outline",
+        "icon": "menu-outline",
         "link": "/pages/ui-features",
         "children": [
           {
@@ -821,7 +825,7 @@
 
       {
         "title": "customer",
-        "icon":"menu-outline",
+        "icon": "menu-outline",
         "link": "/pages/ui-features",
         "children": [
           {
@@ -837,7 +841,7 @@
 
       {
         "title": "department",
-        "icon":"menu-outline",
+        "icon": "menu-outline",
         "link": "/pages/ui-features",
         "children": [
           {
@@ -853,7 +857,7 @@
 
       {
         "title": "employee",
-        "icon":"menu-outline",
+        "icon": "menu-outline",
         "link": "/pages/ui-features",
         "children": [
           {
@@ -869,7 +873,7 @@
 
       {
         "title": "officer",
-        "icon":"menu-outline",
+        "icon": "menu-outline",
         "link": "/pages/ui-features",
         "children": [
           {
@@ -884,7 +888,7 @@
       },
       {
         "title": "productType",
-        "icon":"menu-outline",
+        "icon": "menu-outline",
         "link": "/pages/ui-features",
         "children": [
           {
@@ -899,7 +903,7 @@
       },
       {
         "title": "product",
-        "icon":"menu-outline",
+        "icon": "menu-outline",
         "link": "/pages/ui-features",
         "children": [
           {
@@ -914,7 +918,7 @@
       },
       {
         "title": "account",
-        "icon":"menu-outline",
+        "icon": "menu-outline",
         "link": "/pages/ui-features",
         "children": [
           {
@@ -929,7 +933,7 @@
       },
       {
         "title": "accTransaction",
-        "icon":"menu-outline",
+        "icon": "menu-outline",
         "link": "/pages/ui-features",
         "children": [
           {
