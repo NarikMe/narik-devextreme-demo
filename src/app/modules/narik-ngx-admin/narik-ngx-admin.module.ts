@@ -1,23 +1,26 @@
+import { NarikDevTabOutletModule } from "narik-ui-devextreme";
+
+import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
-
-import { COMPONENTS } from "./index";
-
+import { RouterModule } from "@angular/router";
 import {
   NbActionsModule,
   NbCardModule,
   NbContextMenuModule,
+  NbIconModule,
   NbLayoutModule,
   NbMenuModule,
   NbSearchModule,
   NbSidebarModule,
   NbSidebarService,
-  NbUserModule,
-  NbIconModule
+  NbUserModule
 } from "@nebular/theme";
-import { RouterModule } from "@angular/router";
+
+import { COMPONENTS } from "./index";
 
 @NgModule({
   imports: [
+    CommonModule,
     RouterModule,
     NbActionsModule,
     NbCardModule,
@@ -27,7 +30,8 @@ import { RouterModule } from "@angular/router";
     NbSearchModule,
     NbSidebarModule,
     NbIconModule,
-    NbUserModule
+    NbUserModule,
+    NarikDevTabOutletModule
   ],
   declarations: [COMPONENTS],
   exports: [COMPONENTS],

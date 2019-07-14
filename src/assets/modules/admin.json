@@ -12,6 +12,10 @@
       "$$uiDefaults.button",
       "$$uiDefaults.toolbar"
     ],
+    "viewOptions": {
+      "detailNavigationProvider": "dialog",
+      "defaultNavigationProvider": "route"
+    },
     "entities": [
       {
         "key": "userAccount",
