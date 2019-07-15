@@ -13,8 +13,7 @@
       "$$uiDefaults.toolbar"
     ],
     "viewOptions": {
-      "detailNavigationProvider": "dialog",
-      "defaultNavigationProvider": "route"
+      "detailNavigationProvider": "dialog"
     },
     "entities": [
       {
