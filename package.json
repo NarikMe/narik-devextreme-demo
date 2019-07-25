@@ -46,11 +46,11 @@
     "data-adapter": "^0.2.3",
     "roboto-fontface": "^0.10.0",
     "typeface-exo": "0.0.61",
-    "narik-app-core": "^2.0.7",
+    "narik-app-core": "^2.0.9",
     "narik-client-storage": "^2.0.0",
     "narik-common": "^2.0.8",
     "narik-core": "^2.0.7",
-    "narik-infrastructure": "^2.0.5",
+    "narik-infrastructure": "^2.0.6",
     "narik-jwt-authentication": "^2.0.0",
     "narik-ui-core": "^2.0.9",
     "narik-ui-devextreme": "^2.0.8"
