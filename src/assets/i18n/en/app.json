@@ -9,8 +9,8 @@
     "old-password": "Old Password",
     "re-password": "Confirm New Password",
     "change_Pass": "Change Password",
-    "userName_placeHolder": "Your Username",
-    "password_placeHolder": "Your Password"
+    "userName_placeHolder": "(admin for demo)",
+    "password_placeHolder": "(123 for demo😉)"
   },
   "search": "Search",
   "management":"Management",

@@ -1,5 +1,7 @@
 # narik-devextreme-demo
-A demo for [**Narik**](http://narik.me "**Narik**") with [Devextreme Angular](https://js.devexpress.com/Overview/Angular/ "devextreme angular")
+A demo for [**Narik**](http://narik.me "**Narik**") with [Devextreme Angular](https://js.devexpress.com/Overview/Angular/ "devextreme angular")  
+
+[Online Demo](http://narik.me/demo/app-devextreme)
 
 
 # Running the demo
