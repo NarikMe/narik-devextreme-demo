@@ -1,4 +1,4 @@
-import { NarikDevTabOutletModule } from "narik-ui-devextreme";
+import { NarikDevTabOutletModule } from "@narik/ui-devextreme";
 
 import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";

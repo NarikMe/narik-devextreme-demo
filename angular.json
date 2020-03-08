@@ -30,6 +30,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "aot": true,
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
@@ -40,7 +41,7 @@
               "src/styles/styles.scss",
               "node_modules/devextreme/dist/css/dx.common.css",
               "node_modules/devextreme/dist/css/dx.light.css",
-              "node_modules/narik-ui-devextreme/styles/narik-ui-devextreme.css"
+              "node_modules/@narik/ui-devextreme/styles/narik-ui-devextreme.css"
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
@@ -113,7 +114,11 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["tsconfig.app.json", "tsconfig.spec.json","tsconfig.spec.json"],
+            "tsConfig": [
+              "tsconfig.app.json",
+              "tsconfig.spec.json",
+              "tsconfig.spec.json"
+            ],
             "exclude": ["**/node_modules/**"]
           }
         }

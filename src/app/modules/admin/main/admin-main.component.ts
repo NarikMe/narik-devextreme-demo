@@ -1,7 +1,7 @@
 import {
   MetaDataService,
   MODULE_UI_KEY
-} from "narik-infrastructure";
+} from "@narik/infrastructure";
 
 import { Component, Inject } from "@angular/core";
 import { NbMenuItem } from "@nebular/theme";
