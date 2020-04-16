@@ -1,12 +1,12 @@
 <narik-busy-indicator>
   <narik-toolbar
     toolbarKey="{{
-      config && config.toolbarKey ? config.toolbarKey : 'detailToolBar'
+      config && config.toolbarKey ? config.toolbarKey : 'editToolBar'
     }}"
   >
   </narik-toolbar>
   <div class="card">
-    <form #form="ngForm" novalidate name="frmDetail">
+    <form #form="ngForm" novalidate name="frmEdit">
       <div narik-section="formContent"></div>
     </form>
   </div>
