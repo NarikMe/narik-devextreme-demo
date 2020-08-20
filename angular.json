@@ -51,8 +51,7 @@
                 "../node_modules/~@nebular/theme/styles/themes/default"
               ]
             },
-            "scripts": [],
-            "es5BrowserSupport": true
+            "scripts": []
           },
           "configurations": {
             "production": {
